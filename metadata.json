@@ -1,0 +1,7 @@
+{
+  "name": "QnA Shiksha",
+  "description": "Class 1 to 12 NCERT Solutions • Step-by-Step solutions, downloadable PDFs, and chapter notes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

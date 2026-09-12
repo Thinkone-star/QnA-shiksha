@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <!-- Graduation Cap (Mortarboard) -->
+  <!-- Skullcap base -->
+  <path d="M190,138 C190,138 190,172 250,182 C310,172 310,138 310,138 Z" fill="#143426" />
+  <!-- Cap Diamond Top -->
+  <polygon points="250,55 410,120 250,185 90,120" fill="#1b4332" />
+  <!-- Cap Top Highlight Rim -->
+  <polyline points="95,120 250,182 405,120" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.95" />
+  <!-- Cap Button -->
+  <circle cx="250" cy="120" r="8" fill="#ffffff" />
+  <!-- Tassel Cord and Brush -->
+  <path d="M250,120 Q330,135 390,150 L395,185" fill="none" stroke="#1b4332" stroke-width="6" stroke-linecap="round" />
+  <rect x="388" y="185" width="14" height="26" rx="4" fill="#1b4332" />
+  <circle cx="395" cy="185" r="7" fill="#143426" />
+
+  <!-- Outer Cover / Book Thickness (Depth Flaps) -->
+  <!-- Left cover edge -->
+  <path d="M75,178 L125,160 L125,350 L75,335 Z" fill="#143426" />
+  <!-- Right cover edge -->
+  <path d="M425,178 L375,160 L375,350 L425,335 Z" fill="#23533e" />
+
+  <!-- Main Open Book Pages / Speech Bubble Body -->
+  <!-- Left Page (Deep Forest Green #1b4332) -->
+  <path d="M250,185 L125,160 L125,350 C175,360 215,372 250,390 Z" fill="#1b4332" />
+  
+  <!-- Right Page (Vibrant Pine Green #2d6a4f) -->
+  <path d="M250,185 L375,160 L375,350 C325,360 285,372 250,390 Z" fill="#2d6a4f" />
+
+  <!-- Center Book Spine White Divider Line -->
+  <path d="M250,185 L250,390" stroke="#ffffff" stroke-width="5" stroke-linecap="round" />
+
+  <!-- Letter Q on Left Page -->
+  <g fill="#ffffff">
+    <path d="M 188 230 C 163 230 148 248 148 274 C 148 300 163 318 188 318 C 196 318 204 315 210 310 L 217 322 C 220 327 225 329 230 327 C 235 324 236 318 232 312 L 222 297 C 226 289 228 282 228 274 C 228 248 213 230 188 230 Z M 188 252 C 200 252 208 261 208 274 C 208 287 200 296 188 296 C 176 296 168 287 168 274 C 168 261 176 252 188 252 Z" />
+  </g>
+
+  <!-- Letter A on Right Page -->
+  <g fill="#ffffff">
+    <path d="M 312 230 C 306 230 300 234 297 241 L 270 312 C 267 318 270 325 277 326 C 282 327 287 323 289 318 L 295 302 L 329 302 L 335 318 C 337 323 342 327 347 326 C 354 325 357 318 354 312 L 327 241 C 324 234 318 230 312 230 Z M 312 258 L 323 287 L 301 287 Z" />
+  </g>
+
+  <!-- Layered Sheets / Curved Mint Accents at bottom of book -->
+  <path d="M 85,348 C 140,366 195,378 250,388 C 305,378 360,366 415,348 C 360,372 305,386 250,396 C 195,386 140,372 85,348 Z" fill="#d8f3dc" opacity="0.9" />
+  <path d="M 110,362 C 158,376 204,386 250,394 C 296,386 342,376 390,362 C 342,382 296,394 250,402 C 204,394 158,382 110,362 Z" fill="#b7e4c7" opacity="0.8" />
+
+  <!-- Speech Bubble Tail pointing down-right -->
+  <polygon points="215,386 305,455 300,394" fill="#1b4332" />
+</svg>

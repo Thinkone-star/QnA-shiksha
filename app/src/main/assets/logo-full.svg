@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 650" width="100%" height="100%">
+  <!-- EMBLEM -->
+  <!-- Graduation Cap (Mortarboard) -->
+  <path d="M240,128 C240,128 240,162 300,172 C360,162 360,128 360,128 Z" fill="#143426" />
+  <polygon points="300,45 460,110 300,175 140,110" fill="#1b4332" />
+  <polyline points="145,110 300,172 455,110" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.95" />
+  <circle cx="300,110" r="8" fill="#ffffff" />
+  <path d="M300,110 Q380,125 440,140 L445,175" fill="none" stroke="#1b4332" stroke-width="6" stroke-linecap="round" />
+  <rect x="438" y="175" width="14" height="26" rx="4" fill="#1b4332" />
+  <circle cx="445" cy="175" r="7" fill="#143426" />
+
+  <!-- Outer Cover / Book Thickness (Depth Flaps) -->
+  <path d="M125,168 L175,150 L175,340 L125,325 Z" fill="#143426" />
+  <path d="M475,168 L425,150 L425,340 L475,325 Z" fill="#23533e" />
+
+  <!-- Main Open Book Pages / Speech Bubble Body -->
+  <!-- Left Page (Forest Green) -->
+  <path d="M300,175 L175,150 L175,340 C225,350 265,362 300,380 Z" fill="#1b4332" />
+  <!-- Right Page (Pine Green) -->
+  <path d="M300,175 L425,150 L425,340 C375,350 335,362 300,380 Z" fill="#2d6a4f" />
+  <!-- Center Spine Divider -->
+  <path d="M300,175 L300,380" stroke="#ffffff" stroke-width="5" stroke-linecap="round" />
+
+  <!-- Letter Q on Left Page -->
+  <g fill="#ffffff">
+    <path d="M 238 220 C 213 220 198 238 198 264 C 198 290 213 308 238 308 C 246 308 254 305 260 300 L 267 312 C 270 317 275 319 280 317 C 285 314 286 308 282 302 L 272 287 C 276 279 278 272 278 264 C 278 238 263 220 238 220 Z M 238 242 C 250 242 258 251 258 264 C 258 277 250 286 238 286 C 226 286 218 277 218 264 C 218 251 226 242 238 242 Z" />
+  </g>
+
+  <!-- Letter A on Right Page -->
+  <g fill="#ffffff">
+    <path d="M 362 220 C 356 220 350 224 347 231 L 320 302 C 317 308 320 315 327 316 C 332 317 337 313 339 308 L 345 292 L 379 292 L 385 308 C 387 313 392 317 397 316 C 404 315 407 308 404 302 L 377 231 C 374 224 368 220 362 220 Z M 362 248 L 373 277 L 351 277 Z" />
+  </g>
+
+  <!-- Layered Sheets / Curved Mint Accents at bottom of book -->
+  <path d="M 135,338 C 190,356 245,368 300,378 C 355,368 410,356 465,338 C 410,362 355,376 300,386 C 245,376 190,362 135,338 Z" fill="#d8f3dc" opacity="0.9" />
+  <path d="M 160,352 C 208,366 254,376 300,384 C 346,376 392,366 440,352 C 392,372 346,384 300,392 C 254,384 208,372 160,352 Z" fill="#b7e4c7" opacity="0.8" />
+
+  <!-- Speech Bubble Tail -->
+  <polygon points="265,376 355,445 350,384" fill="#1b4332" />
+
+  <!-- TYPOGRAPHY -->
+  <text x="300" y="520" text-anchor="middle" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif" font-weight="900" font-size="62" fill="#1b4332" letter-spacing="-1">QnA Shiksha</text>
+  
+  <!-- TAGLINE & ACCENT LINES -->
+  <g transform="translate(0, 560)">
+    <line x1="85" y1="0" x2="115" y2="0" stroke="#74c69d" stroke-width="3.5" stroke-linecap="round" />
+    <text x="300" y="5" text-anchor="middle" font-family="'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif" font-weight="700" font-size="20" fill="#1b4332" letter-spacing="0.5">Class 1 to 12 NCERT Solutions • Step-by-Step</text>
+    <line x1="485" y1="0" x2="515" y2="0" stroke="#74c69d" stroke-width="3.5" stroke-linecap="round" />
+  </g>
+</svg>

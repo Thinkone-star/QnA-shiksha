@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ad-services-config>
+    <!-- Disable ad measurement bindings in environments where adservices is unavailable -->
+    <attribution allowAdPartners="false" />
+    <topics allowAdPartners="false" />
+    <protected-audiences allowAdPartners="false" />
+</ad-services-config>

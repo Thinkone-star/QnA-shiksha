@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Centered within 66dp safe zone (21dp to 87dp) -->
+
+    <!-- Graduation Cap Skullcap base -->
+    <path
+        android:fillColor="#143426"
+        android:pathData="M43,37 C43,37 43,42.5 54,44 C65,42.5 65,37 65,37 Z" />
+
+    <!-- Cap Diamond Top -->
+    <path
+        android:fillColor="#1B4332"
+        android:pathData="M54,21 L82,33 L54,45 L26,33 Z" />
+
+    <!-- Cap Highlight Rim -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="0.8"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M27.5,33 L54,44.2 L80.5,33" />
+
+    <!-- Cap Button -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,31.5 A1.5,1.5 0 1,0 54,34.5 A1.5,1.5 0 1,0 54,31.5 Z" />
+
+    <!-- Tassel Cord & Brush -->
+    <path
+        android:strokeColor="#1B4332"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:pathData="M54,33 Q68,36 78,39 L79,45" />
+    <path
+        android:fillColor="#1B4332"
+        android:pathData="M77.5,45 L80.5,45 L80.5,50 L77.5,50 Z" />
+
+    <!-- Outer Cover Depth Flaps -->
+    <path
+        android:fillColor="#143426"
+        android:pathData="M23,43 L32,40 L32,71 L23,69 Z" />
+    <path
+        android:fillColor="#23533E"
+        android:pathData="M85,43 L76,40 L76,71 L85,69 Z" />
+
+    <!-- Main Open Book / Speech Bubble Pages -->
+    <!-- Left Page (Forest Green) -->
+    <path
+        android:fillColor="#1B4332"
+        android:pathData="M54,45 L32,40 L32,71 C41,72.5 48,74.5 54,77 Z" />
+
+    <!-- Right Page (Pine Green) -->
+    <path
+        android:fillColor="#2D6A4F"
+        android:pathData="M54,45 L76,40 L76,71 C67,72.5 60,74.5 54,77 Z" />
+
+    <!-- Book Center Spine White Divider -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M53.5,45 L54.5,45 L54.5,77 L53.5,77 Z" />
+
+    <!-- Letter Q on Left Page -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M43,51 C39,51 36.5,53.8 36.5,57.5 C36.5,61.2 39,64 43,64 C44.5,64 45.8,63.5 46.8,62.7 L47.8,64.4 C48.3,65.1 49,65 49.6,64.6 C50,64.2 50,63.4 49.5,62.7 L48,60.6 C48.8,59.6 49.5,58.6 49.5,57.5 C49.5,53.8 47,51 43,51 Z M43,54.2 C45,54.2 46.5,55.6 46.5,57.5 C46.5,59.4 45,60.8 43,60.8 C41,60.8 39.5,59.4 39.5,57.5 C39.5,55.6 41,54.2 43,54.2 Z" />
+
+    <!-- Letter A on Right Page -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M65,51 C64,51 63.1,51.6 62.6,52.7 L58,63.5 C57.5,64.4 58,65.2 59,65.3 C59.7,65.4 60.5,64.8 60.8,64 L61.8,61.5 L68.2,61.5 L69.2,64 C69.5,64.8 70.3,65.4 71,65.3 C72,65.2 72.5,64.4 72,63.5 L67.4,52.7 C66.9,51.6 66,51 65,51 Z M65,54.8 L67,59.5 L63,59.5 Z" />
+
+    <!-- Layered Mint Sheets Curves at Bottom -->
+    <path
+        android:fillColor="#D8F3DC"
+        android:pathData="M25,71 C34,74 44,76 54,77.5 C64,76 74,74 83,71 C74,75 64,77 54,78.5 C44,77 34,75 25,71 Z" />
+    <path
+        android:fillColor="#B7E4C7"
+        android:pathData="M29,73 C37,75.5 45,77.5 54,78.5 C63,77.5 71,75.5 79,73 C71,76.5 63,78.5 54,80 C45,78.5 37,76.5 29,73 Z" />
+
+    <!-- Speech Bubble Tail -->
+    <path
+        android:fillColor="#1B4332"
+        android:pathData="M47,76.5 L62,87 L61.5,77.5 Z" />
+</vector>
